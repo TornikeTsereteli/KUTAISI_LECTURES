@@ -12,7 +12,7 @@ public class Program
         string s = "Hello World";  //H   // s[0]  s[1] s[2] s[3] s[4] s[5] s[6] s[7] s[8]
         int a = 5;
         
-        Console.WriteLine(s[0]);
+        Console.WriteLine(s[0]); // s[1]
 
         Console.WriteLine(s[1]);
 
@@ -34,12 +34,12 @@ public class Program
         // s[0] = '1';  compile error
 
 
-        string tolowerCase = s.ToLower();
+        string tolowerCase = s.ToLower(); //HELLo -> hello
 
         Console.WriteLine(tolowerCase);
-        Console.WriteLine(s.ToUpper());
+        Console.WriteLine(s.ToUpper());  // hello -> HELLO
 
-        Console.WriteLine(s.Contains("World"));
+        Console.WriteLine(s.Contains("World"));  //  Hello World -> true
 
         Console.WriteLine(s.StartsWith("Hello"));
 
@@ -48,13 +48,13 @@ public class Program
         string[] split = s.Split(' ');  // hello world -> [hello, world]
         string[] split1 = s.Split(' ');  // hello world 123 -> [hello, world, 123]
 
-        string ss = "hello,world,world2,123";
+        string ss = "hello,world,world2,123"; // -> [hello,world,world2,123]
         string[] splitByComma = ss.Split(',');
 
         Console.WriteLine(splitByComma[2]);
         
         
-        Console.WriteLine(" hello   eq  ".Trim());
+        Console.WriteLine(" hello   eq  ".Trim()); // 
         
 
 
@@ -67,7 +67,7 @@ public class Program
         // remove numbers
         // remove punctuations
 
-        Console.WriteLine(s.Replace("o", "0"));
+        Console.WriteLine(s.Replace("o", "0")); // 
 
       
 

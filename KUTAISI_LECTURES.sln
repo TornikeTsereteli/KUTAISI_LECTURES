@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_3_Functions", "Week_3_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_4_1_Strings_And_Function", "Week_4_1_Strings_And_Function\Week_4_1_Strings_And_Function.csproj", "{BF5158C5-71BD-4812-8F8D-9CADEC9CEDF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_4_2_Collections", "Week_4_2_Collections\Week_4_2_Collections.csproj", "{B4BD4BF6-F1A4-48DF-A553-27002CB93959}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{BF5158C5-71BD-4812-8F8D-9CADEC9CEDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF5158C5-71BD-4812-8F8D-9CADEC9CEDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF5158C5-71BD-4812-8F8D-9CADEC9CEDF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BD4BF6-F1A4-48DF-A553-27002CB93959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BD4BF6-F1A4-48DF-A553-27002CB93959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BD4BF6-F1A4-48DF-A553-27002CB93959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BD4BF6-F1A4-48DF-A553-27002CB93959}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
