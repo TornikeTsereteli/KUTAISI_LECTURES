@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_3_Functions", "Week_3_Functions\Week_3_Functions.csproj", "{6CE5302E-B481-4592-BA5C-7FF5C98C5DF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_4_1_Strings_And_Function", "Week_4_1_Strings_And_Function\Week_4_1_Strings_And_Function.csproj", "{BF5158C5-71BD-4812-8F8D-9CADEC9CEDF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CE5302E-B481-4592-BA5C-7FF5C98C5DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE5302E-B481-4592-BA5C-7FF5C98C5DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE5302E-B481-4592-BA5C-7FF5C98C5DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE5302E-B481-4592-BA5C-7FF5C98C5DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF5158C5-71BD-4812-8F8D-9CADEC9CEDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5158C5-71BD-4812-8F8D-9CADEC9CEDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5158C5-71BD-4812-8F8D-9CADEC9CEDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5158C5-71BD-4812-8F8D-9CADEC9CEDF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
