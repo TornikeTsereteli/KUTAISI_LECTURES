@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week5_1_Classes", "Week5_1_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_6_1_OOP_Exercises", "Week_6_1_OOP_Exercises\Week_6_1_OOP_Exercises.csproj", "{9A4484DB-5887-46C2-B1D9-582F9B56BF3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_7_1_OOP_Exercises_2", "Week_7_1_OOP_Exercises_2\Week_7_1_OOP_Exercises_2.csproj", "{2CFBFC8A-BA23-44B1-A292-C6A853CA310A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{9A4484DB-5887-46C2-B1D9-582F9B56BF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A4484DB-5887-46C2-B1D9-582F9B56BF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A4484DB-5887-46C2-B1D9-582F9B56BF3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CFBFC8A-BA23-44B1-A292-C6A853CA310A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CFBFC8A-BA23-44B1-A292-C6A853CA310A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CFBFC8A-BA23-44B1-A292-C6A853CA310A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CFBFC8A-BA23-44B1-A292-C6A853CA310A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

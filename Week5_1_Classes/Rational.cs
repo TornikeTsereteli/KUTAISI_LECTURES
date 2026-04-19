@@ -9,30 +9,29 @@ public class Rational
 
     public Rational(int numerator, int denominator)
     {
-        Numerator = numerator;
-        Denominator = denominator;
+        this.Numerator = numerator;
+        this.Denominator = denominator;
     }
 
+    
 
     public void Print()
     {
         Console.WriteLine($"{Numerator}/{Denominator}");
     }
-
-    // 27 / 18  = 3/2  gcd = GCD(27,18)    27/a   18/a  =  3/2
+    // 27/18 = 3/2
     public void Simplify()
     {
-        int a = GCD(Numerator, Denominator); // 27 18  -> 9
-        Numerator /= a;
-        Denominator /= a;
+        int gcd = GCD(Numerator, Denominator);
+        this.Numerator = this.Numerator / gcd;
+        this.Denominator = Denominator / gcd;
     }
 
-    public Rational Add(Rational rational)
+    public Rational Add(Rational r)
     {
-        int numerator = this.Numerator * rational.Denominator + rational.Numerator * this.Denominator;
-        int denominator = this.Denominator * rational.Denominator;
+        int numerator = this.Numerator * r.Denominator + r.Numerator * this.Denominator;
+        int denominator = this.Denominator * r.Denominator;
         Rational result = new Rational(numerator, denominator);
-        result.Simplify();
         return result;
     }
 
@@ -103,30 +102,53 @@ public class Rational
     }
     private static int GCD(int a, int b)  // 27, 18     1-18
     {
-        int result = 1;
-        for (int i = 2; i <= int.Min(a, b); i++)
+        List<int> divisorsOfA = [];
+        for (int i = 1; i <= a; i++)
         {
-            if (a % i == 0 && b % i == 0)
+            if (a % i == 0)
             {
-                result = i;
+                divisorsOfA.Add(i);
             }
         }
-        return result;
-        
-        // 10 6 //  4 6 // 4 2 // 2 2
-        // while (a != b)
-        // {
-        //     if (a < b)
-        //     {
-        //         b = b - a;
-        //     }
-        //     else
-        //     {
-        //         a = a - b;
-        //     }
-        // }
-        // return a;
+
+        List<int> divisorsOfB = [];
+        for (int i = 1; i <= b; i++)
+        {
+            if (b % i == 0)
+            {
+                divisorsOfB.Add(i);
+            }
+        }
+
+        List<int> commonDivisors = [];
+        foreach (var divisor in divisorsOfA)
+        {
+            if (divisorsOfB.Contains(divisor))
+            {
+                commonDivisors.Add(divisor);
+            }
+        }
+
+        return commonDivisors.Max();
     }
+
+    public static int GCD2(int a, int b)
+    {
+        // a b  -> a - b,  a==b
+        while (a!=b)
+        {
+            if (a > b)
+            {
+                a = a - b;
+            }
+            else
+            {
+                b = b - a;
+            }
+        }
+        return a;
+    } 
+    
 
 
 
