@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_6_1_OOP_Exercises", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_7_1_OOP_Exercises_2", "Week_7_1_OOP_Exercises_2\Week_7_1_OOP_Exercises_2.csproj", "{2CFBFC8A-BA23-44B1-A292-C6A853CA310A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_8_Spotijy", "Week_8_Spotijy\Week_8_Spotijy.csproj", "{F2A1C928-519E-4B7E-AC3D-A67117D01DF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{2CFBFC8A-BA23-44B1-A292-C6A853CA310A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CFBFC8A-BA23-44B1-A292-C6A853CA310A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CFBFC8A-BA23-44B1-A292-C6A853CA310A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A1C928-519E-4B7E-AC3D-A67117D01DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A1C928-519E-4B7E-AC3D-A67117D01DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A1C928-519E-4B7E-AC3D-A67117D01DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A1C928-519E-4B7E-AC3D-A67117D01DF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
