@@ -16,6 +16,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_7_1_OOP_Exercises_2", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week_8_Spotijy", "Week_8_Spotijy\Week_8_Spotijy.csproj", "{F2A1C928-519E-4B7E-AC3D-A67117D01DF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture_9_EFCore", "Lecture_9_EFCore\Lecture_9_EFCore.csproj", "{D44690E9-4E50-40C9-8B53-CBB370E306C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{D9643CE6-7B40-436F-B107-86533997B922}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +58,13 @@ Global
 		{F2A1C928-519E-4B7E-AC3D-A67117D01DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2A1C928-519E-4B7E-AC3D-A67117D01DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2A1C928-519E-4B7E-AC3D-A67117D01DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D44690E9-4E50-40C9-8B53-CBB370E306C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44690E9-4E50-40C9-8B53-CBB370E306C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44690E9-4E50-40C9-8B53-CBB370E306C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44690E9-4E50-40C9-8B53-CBB370E306C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9643CE6-7B40-436F-B107-86533997B922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9643CE6-7B40-436F-B107-86533997B922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9643CE6-7B40-436F-B107-86533997B922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9643CE6-7B40-436F-B107-86533997B922}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
